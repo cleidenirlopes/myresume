@@ -19,7 +19,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           {/* Profile Section */}
           <div className="flex flex-col items-center justify-center gap-5 relative">
             <img 
-              src="./peaches.jpg" 
+              src="/myresume/peaches.jpg" 
               alt="Profile" 
               className="w-64 rounded-full"
             />

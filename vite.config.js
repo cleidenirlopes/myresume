@@ -3,6 +3,11 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/myresume/', // Set this to the subpath where your app is deployed
+  base: '/myresume/',
   plugins: [react()],
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: true
+  }
 });
