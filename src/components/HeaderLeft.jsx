@@ -18,13 +18,11 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
         <div className="flex flex-col gap-5">
           {/* Profile Section */}
           <div className="flex flex-col items-center justify-center gap-5 relative">
-            <img src="/peaches.jpg" alt="Profile" className="w-64 rounded-full" />
-            <div className="text-center space-y-1">
-              <h1 className="text-xl tracking-wide">
-                Cledenir <span className="font-medium">Souza</span>
-              </h1>
-              <h3 className="text-lg font-extralight tracking-wide">Data Analyst</h3>
-            </div>
+            <img 
+              src="./peaches.jpg" 
+              alt="Profile" 
+              className="w-64 rounded-full"
+            />
             <button
               className="absolute right-0 -top-12 p-2 rounded-full bg-gray-300 dark:bg-gray-700"
               onClick={toggleDarkMode}
