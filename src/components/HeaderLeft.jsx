@@ -9,12 +9,13 @@ import {
   BiLogoTwitter,
   BiLogoLinkedin,
   BiBriefcase,
+  BiDownload
 } from "react-icons/bi";
 
 function HeaderLeft({ darkMode, toggleDarkMode }) {
   return (
-    <aside className="w-3/10 min-h-screen p-5 dark:bg-[#151a1e] dark:text-white font-light">
-      <div className="min-h-screen flex-1 relative p-10 transition-all duration-500 dark:bg-[#151a1e] dark:text-white sm:border-r dark:border-gray-900">
+    <aside className="w-3/10 min-h-screen p-5 dark:bg-black dark:text-white font-light">
+      <div className="min-h-screen flex-1 relative p-10 transition-all duration-500 dark:bg-black dark:text-white sm:border-r dark:border-gray-900">
         <div className="flex flex-col gap-5">
           {/* Profile Section */}
           <div className="flex flex-col items-center justify-center gap-5 relative">
@@ -24,7 +25,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               className="w-64 rounded-full"
             />
             <button
-              className="absolute right-0 -top-12 p-2 rounded-full bg-gray-700 text-white"
+              className="absolute right-0 -top-12 p-2 rounded-full bg-gray-300 dark:bg-gray-700"
               onClick={toggleDarkMode}
               aria-label="Toggle Dark Mode"
             >
@@ -33,7 +34,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </div>
 
           {/* Contact Section */}
-          <section className="flex flex-col items-start gap-5 border-b border-gray-700 p-5">
+          <section className="flex flex-col items-start gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <BiCurrentLocation className="text-xl" />
@@ -51,8 +52,8 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </section>
 
           {/* Social Section */}
-          <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
-            <h1 className="text-base font-medium tracking-wide md:text-2xl text-left">SOCIAL</h1>
+          <section className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
+          <h1 className="text-base font-medium tracking-wide md:text-2xl text-left">SOCIAL</h1>
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <BiLogoGithub className="text-xl" />
@@ -70,7 +71,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </section>
           
           {/* Portfolio Section */}
-          <div className="flex flex-col items-start justify-start gap-5 border-b border-gray-700 p-5">
+          <div className="flex flex-col items-start justify-start gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
             <h1 className="section-title">PORTFOLIO</h1>
             <li className="flex items-center gap-2">
               <BiBriefcase className="text-xl" />
@@ -83,13 +84,13 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             <h1 className="text-base font-semibold md:text-2xl text-left">EDUCATION</h1>
             <ul className="relative">
               {/* Vertical Line */}
-              <div className="absolute left-[9px] top-0 h-full w-[1px] bg-gray-700"></div>
+              <div className="absolute left-[9px] top-0 h-full w-[1px] bg-gray-300 dark:bg-gray-700"></div>
 
               {/* First Education Entry */}
               <li className="relative flex flex-col gap-1 pl-8">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-gray-700"
+                  bg-[#2b88c6]"  // Blue color for the dots
                 ></div>
                 <div className="flex justify-between items-center w-full gap-8">
                   <span className="font-semibold md:text-lg">Computer Science</span>
@@ -102,7 +103,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               <li className="relative flex flex-col gap-1 pl-8 mt-6">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-gray-700"
+                  bg-[#2b88c6]"  // Blue color for the dots
                 ></div>
                 <div className="flex justify-between items-center w-full gap-8">
                   <span className="font-semibold md:text-lg">Data Analytics</span>
@@ -114,7 +115,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </div>
 
           {/* Skills Section */}
-          <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
+          <section className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">PERSONALITY</h1>
             <ul className="space-y-2">
               <li>Communicative</li>
@@ -124,23 +125,22 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </section>
 
-          <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
+          <div className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">SKILLS</h1>
-             <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Data Analysis</span>
-              <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Data Visualization</span>
-              </div>
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black text-white p-2 text-center dark:bg-white dark:text-black">Data Analysis</span>
+              <span className="rounded-xl bg-black text-white p-2 text-center dark:bg-white dark:text-black">Data Visualization</span>
+            </div>
 
-              <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-gray-700 text-white p-2 text-center">SQL & Databases</span>
-              <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Python</span>
-              <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Excel</span>
-             </div>
-
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black text-white p-2 text-center dark:bg-white dark:text-black">SQL & Databases</span>
+              <span className="rounded-xl bg-black text-white p-2 text-center dark:bg-white dark:text-black">Python</span>
+              <span className="rounded-xl bg-black text-white p-2 text-center dark:bg-white dark:text-black">Excel</span>
+            </div>
           </div>
 
           {/* Hobbies Section */}
-          <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
+          <div className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">HOBBIES</h1>
             <ul className="space-y-3">
               <div className="flex flex-wrap gap-16 p-3">
@@ -149,7 +149,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
                   <li>Cycling</li>
                   <li>Digital Creation</li>
                 </ul>
-                
+
                 <ul className="flex list-disc flex-col gap-3">
                   <li>Reading</li>
                   <li>Running</li>
@@ -160,7 +160,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </div>             
 
           {/* Languages Section */}
-          <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
+          <section className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">LANGUAGE</h1>
             <ul className="space-y-3">
               <li>English (Fluent)</li>
@@ -168,6 +168,13 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               <li>Spanish (Intermediate)</li>
             </ul>
           </section>
+
+          {/* Download Button */}
+          <div className="flex justify-center p-5">
+            <button className="bg-[#2b88c6] text-white py-2 px-4 rounded-full hover:bg-[#2a7db5] transition duration-300">
+              <BiDownload className="mr-2" /> Download CV
+            </button>
+          </div>
         </div>
       </div>
     </aside>
