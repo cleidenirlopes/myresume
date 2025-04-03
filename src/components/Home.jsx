@@ -2,20 +2,26 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex-[3] transition-all duration-500 dark:bg-[#151a1e] bg-[#ffffff] dark:text-[#d8dcde] text-[#151a1e] font-light">
-      {/* Profile Section */}
-      <div className="flex flex-col items-center justify-center gap-5 relative mt-20 mr-20 max-w-3xl">
-        {/* Added margin-top to create space above */}
-        <div className="space-y-2 text-center">
-          <h1 className="text-6xl font-extralight tracking-wide text-[#2b88c6]">
-            {/* Increased font size for the name */}
-            Cledenir <span className="font-medium">Souza</span>
-          </h1>
-          <h3 className="text-3xl font-extralight tracking-wider text-[#151a1e] dark:text-[#d8dcde]">
-            Data Analyst
-          </h3>
+          <div className="min-h-screen flex-[3] transition-all duration-500 dark:bg-[#151a1e] bg-[#ffffff] dark:text-[#d8dcde] text-[#151a1e] font-light">
+        {/* Profile Section */}
+        <div className="flex flex-col items-center justify-center gap-5 relative mt-20 mr-20 max-w-3xl">
+          {/* Added margin-top to create space above */}
+          <div className="space-y-2 text-center">
+            <h1 className="text-6xl font-extralight tracking-wide">
+              <span className="text-white dark:text-black">
+                Cledenir
+              </span> 
+              <span className="font-medium text-[#2b88c6]">
+                Souza
+              </span>
+            </h1>
+            <h3 className="text-3xl font-extralight tracking-wider text-[#151a1e] dark:text-[#d8dcde]">
+              Data Analyst
+            </h3>
+          </div>
         </div>
       </div>
+
       
       {/* Main Section */}
       <main className="flex max-w-[1000px] flex-col gap-10 p-5 md:py-14 mr-20">
