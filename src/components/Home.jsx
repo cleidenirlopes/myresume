@@ -11,7 +11,7 @@ const Home = () => {
             {/* Increased font size for the name */}
             Cledenir <span className="font-medium">Souza</span>
           </h1>
-          <h3 className="text-3xl font-extralight tracking-wider text-[#d8dcde] dark:text-[#d8dcde]">
+          <h3 className="text-3xl font-extralight tracking-wider text-[#151a1e] dark:text-[#d8dcde]">
             Data Analyst
           </h3>
         </div>
