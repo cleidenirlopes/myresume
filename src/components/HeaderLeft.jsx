@@ -161,3 +161,30 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               </div>
             </ul>
           </div>             
+
+          {/* Languages Section */}
+          <section className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
+            <h1 className="text-base font-semibold md:text-2xl text-left">LANGUAGE</h1>
+            <ul className="space-y-3">
+              <li>English (Fluent)</li>
+              <li>Portuguese (Native)</li>
+              <li>Spanish (Intermediate)</li>
+            </ul>
+          </section>
+
+          {/* Download Button */}
+          <div className="flex justify-center p-5">
+            <button
+              className="bg-[#2b88c6] text-white py-2 px-4 rounded-full hover:bg-[#2a7db5] transition duration-300"
+              onClick={handleDownload}
+            >
+              <BiDownload className="mr-2" /> Download CV
+            </button>
+          </div>
+        </div>
+      </div>
+    </aside>
+  );
+}
+
+export default HeaderLeft;
