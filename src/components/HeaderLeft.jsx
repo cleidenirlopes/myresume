@@ -88,8 +88,8 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               {/* First Education Entry */}
               <li className="relative flex flex-col gap-1 pl-8">
                 <div
-                  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-gray-700"
+                 className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"
                 ></div>
                 <div className="flex justify-between items-center w-full gap-8">
                   <span className="font-semibold md:text-lg">Computer Science</span>
