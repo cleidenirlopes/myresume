@@ -1,7 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-*{
-    font-family: 'Inter';
+/* Base color adjustment for readability */
+* {
+  font-family: 'Inter', sans-serif;
 }
+
+body {
+  color: #333; /* Darker text color for better readability */
+}
+
+/* Example for better contrast */
+.text-dark {
+  color: #333 !important; /* Dark color for text */
+}
+
+.bg-light {
+  background-color: #f9f9f9; /* Light background */
+}
+
+.bg-dark {
+  background-color: #222; /* Dark background */
+}
+
+
