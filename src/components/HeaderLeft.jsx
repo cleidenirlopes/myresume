@@ -24,7 +24,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               className="w-64 rounded-full"
             />
             <button
-              className="absolute right-0 -top-12 p-2 rounded-full bg-blue-600 dark:bg-blue-700 text-white"
+              className="absolute right-0 -top-12 p-2 rounded-full bg-gray-700 text-white"
               onClick={toggleDarkMode}
               aria-label="Toggle Dark Mode"
             >
@@ -33,7 +33,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </div>
 
           {/* Contact Section */}
-          <section className="flex flex-col items-start gap-5 border-b border-gray-300 p-5">
+          <section className="flex flex-col items-start gap-5 border-b border-gray-700 p-5">
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <BiCurrentLocation className="text-xl" />
@@ -51,7 +51,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </section>
 
           {/* Social Section */}
-          <section className="flex flex-col gap-5 border-b border-gray-300 p-5">
+          <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-medium tracking-wide md:text-2xl text-left">SOCIAL</h1>
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
@@ -70,7 +70,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </section>
           
           {/* Portfolio Section */}
-          <div className="flex flex-col items-start justify-start gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
+          <div className="flex flex-col items-start justify-start gap-5 border-b border-gray-700 p-5">
             <h1 className="section-title">PORTFOLIO</h1>
             <li className="flex items-center gap-2">
               <BiBriefcase className="text-xl" />
@@ -83,13 +83,13 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             <h1 className="text-base font-semibold md:text-2xl text-left">EDUCATION</h1>
             <ul className="relative">
               {/* Vertical Line */}
-              <div className="absolute left-[9px] top-0 h-full w-[1px] bg-gray-300 dark:bg-gray-700"></div>
+              <div className="absolute left-[9px] top-0 h-full w-[1px] bg-gray-700"></div>
 
               {/* First Education Entry */}
               <li className="relative flex flex-col gap-1 pl-8">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-black dark:bg-white"
+                  bg-gray-700"
                 ></div>
                 <div className="flex justify-between items-center w-full gap-8">
                   <span className="font-semibold md:text-lg">Computer Science</span>
@@ -102,7 +102,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               <li className="relative flex flex-col gap-1 pl-8 mt-6">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-black dark:bg-white"
+                  bg-gray-700"
                 ></div>
                 <div className="flex justify-between items-center w-full gap-8">
                   <span className="font-semibold md:text-lg">Data Analytics</span>
@@ -114,7 +114,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </div>
 
           {/* Skills Section */}
-          <section className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
+          <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">PERSONALITY</h1>
             <ul className="space-y-2">
               <li>Communicative</li>
@@ -124,23 +124,23 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </section>
 
-          <div className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
+          <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">SKILLS</h1>
              <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-black text-white p-2 text-center dark:bg-white dark:text-black">Data Analysis</span>
-              <span className="rounded-xl bg-black text-white p-2 text-center dark:bg-white dark:text-black">Data Visualization</span>
+              <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Data Analysis</span>
+              <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Data Visualization</span>
               </div>
 
               <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-black text-white p-2 text-center dark:bg-white dark:text-black">SQL & Databases</span>
-              <span className="rounded-xl bg-black text-white p-2 text-center dark:bg-white dark:text-black">Python</span>
-              <span className="rounded-xl bg-black text-white p-2 text-center dark:bg-white dark:text-black">Excel</span>
+              <span className="rounded-xl bg-gray-700 text-white p-2 text-center">SQL & Databases</span>
+              <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Python</span>
+              <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Excel</span>
              </div>
 
           </div>
 
           {/* Hobbies Section */}
-          <div className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
+          <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">HOBBIES</h1>
             <ul className="space-y-3">
               <div className="flex flex-wrap gap-16 p-3">
@@ -160,7 +160,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </div>             
 
           {/* Languages Section */}
-          <section className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
+          <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">LANGUAGE</h1>
             <ul className="space-y-3">
               <li>English (Fluent)</li>
