@@ -69,14 +69,19 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </section>
           
-          {/* Portfolio Section */}
-          <div className="flex flex-col items-start justify-start gap-5 border-b border-gray-700 p-5">
-            <h1 className="section-title">PORTFOLIO</h1>
-            <li className="flex items-center gap-2">
-              <BiBriefcase className="text-xl" />
-              <a href="https://cleidenirlopes.github.io/PORTIFOLIO/" target="_blank" rel="noopener noreferrer" className="text-black-500 hover:underline">My Portfolio</a>
-            </li>
-          </div>
+        {/* Portfolio Section */}
+        <div className="flex flex-col items-start justify-start gap-5 border-b border-gray-700 p-5">
+          <h1 className="section-title">
+            <span className="text-white dark:text-black">
+              PORTFOLIO
+            </span>
+          </h1>
+          <li className="flex items-center gap-2">
+            <BiBriefcase className="text-xl" />
+            <a href="https://cleidenirlopes.github.io/PORTIFOLIO/" target="_blank" rel="noopener noreferrer" className="text-black-500 hover:underline">My Portfolio</a>
+          </li>
+        </div>
+
 
           {/* Education Section */}
           <div className="flex flex-col items-start justify-start gap-5 p-5">
