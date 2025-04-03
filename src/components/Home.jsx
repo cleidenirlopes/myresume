@@ -49,7 +49,7 @@ const Home = () => {
                 ></div>
                  <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">CUSTOMER SUPPORT ANALYST</span>
-                  <span className="text-sm text-gray-400 font-light">2024 - Current</span>
+                  <span className="text-sm text-gray-800 font-light">2024 - Current</span>
                 </div>
                 <span className="font-light tracking-wide mb-4">Entain Group ¦ Lisbon</span>
                 <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
@@ -65,7 +65,7 @@ const Home = () => {
                 ></div>
                 <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">CONTENT MODERATION SPECIALIST</span>
-                  <span className="text-sm text-gray-400 font-light">2023 - 2024</span>
+                  <span className="text-sm text-gray-800 font-light">2023 - 2024</span>
                 </div>
                 <span className="font-light tracking-wide mb-4">Accenture ¦ Lisbon</span>
                 <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
@@ -81,7 +81,7 @@ const Home = () => {
                 ></div>
                  <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">DESKTOP SUPPORT TECHNICIAN</span>
-                  <span className="text-sm text-gray-400 font-light">2014 - 2017</span>
+                  <span className="text-sm text-gray-800 font-light">2014 - 2017</span>
                 </div>
                 <span className="font-light tracking-wide mb-4">Wisdom Hardware ¦ São Paulo</span>
                 <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
@@ -97,7 +97,7 @@ const Home = () => {
                 ></div>
                 <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">IT SUPPORT SPECIALIST</span>
-                  <span className="text-sm text-gray-400 font-light">2005 - 2011</span>
+                  <span className="text-sm text-gray-800 font-light">2005 - 2011</span>
                 </div>
                 <span className="font-light tracking-wide mb-4">Souza Cruz ¦ São Paulo</span>
                 <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
@@ -126,7 +126,7 @@ const Home = () => {
                 <div className="space-y-1">
                   <h3 className="font-Light tracking-wide text-base">Data Visualization: A Lesson and Listen Series</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkedin Learning</p>
-                  <p className="text-sm text-gray-400">2024 - 2025</p>
+                  <p className="text-sm text-gray-800">2024 - 2025</p>
                 </div>
               </div>
 
@@ -136,7 +136,7 @@ const Home = () => {
                 <div className="space-y-1">
                   <h3 className="font-Light tracking-wide text-base">Advanced Python: Practical Database Examples</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkeding Learning</p>
-                  <p className="text-sm text-gray-400">2025</p>
+                  <p className="text-sm text-gray-800">2025</p>
                 </div>
               </div>
 
@@ -146,7 +146,7 @@ const Home = () => {
                 <div className="space-y-1">
                   <h3 className="font-Light tracking-wide text-base">Financial Modeling Foundations</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkedin Learning</p>
-                  <p className="text-sm text-gray-400">2023</p>
+                  <p className="text-sm text-gray-800">2023</p>
                 </div>
               </div>
 
@@ -156,7 +156,7 @@ const Home = () => {
                 <div className="space-y-1">
                   <h3 className="font-Light tracking-wide text-base">Google Data Analytics Professional Certificate</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Coursera</p>
-                  <p className="text-sm text-gray-400">2023</p>
+                  <p className="text-sm text-gray-800">2023</p>
                 </div>
               </div>
             </div>
