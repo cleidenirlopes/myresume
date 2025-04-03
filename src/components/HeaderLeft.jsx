@@ -37,7 +37,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <BiCurrentLocation className="text-xl" />
-                <span className="font-light tracking-wide">Lisbon, Portugal</span>
+                <span className="font-light tracking-wide">Lisbon, Portugal Test</span>
               </li>
               <li className="flex items-center gap-2">
                 <BiEnvelope className="text-xl" />
