@@ -45,7 +45,7 @@ const Home = () => {
               <li className="relative flex flex-col gap-1 pl-8">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-black dark:bg-white"
+                bg-[#2b88c6]"
                 ></div>
                  <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">CUSTOMER SUPPORT ANALYST</span>
@@ -61,7 +61,7 @@ const Home = () => {
               <li className="relative flex flex-col gap-1 pl-8 mt-6">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-black dark:bg-white"
+                bg-[#2b88c6]"
                 ></div>
                 <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">CONTENT MODERATION SPECIALIST</span>
@@ -77,7 +77,7 @@ const Home = () => {
               <li className="relative flex flex-col gap-1 pl-8 mt-6">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-black dark:bg-white"
+                bg-[#2b88c6]"
                 ></div>
                  <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">DESKTOP SUPPORT TECHNICIAN</span>
@@ -93,7 +93,7 @@ const Home = () => {
               <li className="relative flex flex-col gap-1 pl-8 mt-6">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-black dark:bg-white"
+                bg-[#2b88c6]"
                 ></div>
                 <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">IT SUPPORT SPECIALIST</span>
@@ -122,7 +122,8 @@ const Home = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
               {/* Course 1 */}
               <div className="relative pl-8">
-                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-black dark:bg-white"></div>
+                <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"></div>
                 <div className="space-y-1">
                   <h3 className="font-Light tracking-wide text-base">Data Visualization: A Lesson and Listen Series</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkedin Learning</p>
@@ -132,7 +133,8 @@ const Home = () => {
 
               {/* Course 2 */}
               <div className="relative pl-8">
-                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-black dark:bg-white"></div>
+                <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"></div>
                 <div className="space-y-1">
                   <h3 className="font-Light tracking-wide text-base">Advanced Python: Practical Database Examples</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkeding Learning</p>
@@ -142,7 +144,8 @@ const Home = () => {
 
               {/* Course 3 */}
               <div className="relative pl-8">
-                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-black dark:bg-white"></div>
+                <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"></div>
                 <div className="space-y-1">
                   <h3 className="font-Light tracking-wide text-base">Financial Modeling Foundations</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkedin Learning</p>
@@ -152,7 +155,8 @@ const Home = () => {
 
               {/* Course 4 */}
               <div className="relative pl-8">
-                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-black dark:bg-white"></div>
+                <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"></div>
                 <div className="space-y-1">
                   <h3 className="font-Light tracking-wide text-base">Google Data Analytics Professional Certificate</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Coursera</p>
