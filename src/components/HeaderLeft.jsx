@@ -13,8 +13,18 @@ import {
 } from "react-icons/bi";
 
 function HeaderLeft({ darkMode, toggleDarkMode }) {
+  // Function to trigger the download of the CV
+  const handleDownload = () => {
+    const element = document.createElement("a");
+    const file = new Blob([`Your CV content here...`], { type: "text/plain" }); // Placeholder for actual CV content
+    element.href = URL.createObjectURL(file);
+    element.download = "Cledenir_CV.pdf"; // You can replace this with the actual file path
+    document.body.appendChild(element);
+    element.click();
+  };
+
   return (
-    <aside className="w-3/10 min-h-screen p-5 dark:bg-black dark:text-white font-light">
+    <aside className="w-3/10 min-h-screen p-5 bg-[#151a1e] dark:text-white font-light">
       <div className="min-h-screen flex-1 relative p-10 transition-all duration-500 dark:bg-black dark:text-white sm:border-r dark:border-gray-900">
         <div className="flex flex-col gap-5">
           {/* Profile Section */}
@@ -72,46 +82,39 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           
           {/* Portfolio Section */}
           <div className="flex flex-col items-start justify-start gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
-            <h1 className="section-title">PORTFOLIO</h1>
+            <h1 className="text-white text-base font-medium tracking-wide md:text-2xl text-left">PORTFOLIO</h1>
             <li className="flex items-center gap-2">
               <BiBriefcase className="text-xl" />
-              <a href="https://cleidenirlopes.github.io/PORTIFOLIO/" target="_blank" rel="noopener noreferrer" className="text-black-500 hover:underline">My Portfolio</a>
+              <a href="https://cleidenirlopes.github.io/PORTIFOLIO/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">My Portfolio</a>
             </li>
           </div>
 
           {/* Education Section */}
           <div className="flex flex-col items-start justify-start gap-5 p-5">
-            <h1 className="text-base font-semibold md:text-2xl text-left">EDUCATION</h1>
-            <ul className="relative">
-              {/* Vertical Line */}
-              <div className="absolute left-[9px] top-0 h-full w-[1px] bg-gray-300 dark:bg-gray-700"></div>
+            <h1 className="section-title">EDUCATION</h1>
+            <li className="relative flex flex-col gap-1 pl-8">
+              <div
+                className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"  // Blue color for the dots
+              ></div>
+              <div className="flex justify-between items-center w-full gap-8">
+                <span className="font-semibold md:text-lg">Computer Science</span>
+                <span className="text-sm text-gray-400">1998 - 2003</span>
+              </div>
+              <span className="font-light">University Unicamp</span>
+            </li>
 
-              {/* First Education Entry */}
-              <li className="relative flex flex-col gap-1 pl-8">
-                <div
-                  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-[#2b88c6]"  // Blue color for the dots
-                ></div>
-                <div className="flex justify-between items-center w-full gap-8">
-                  <span className="font-semibold md:text-lg">Computer Science</span>
-                  <span className="text-sm text-gray-400">1998 - 2003</span>
-                </div>
-                <span className="font-light">University Unicamp</span>
-              </li>
-
-              {/* Second Education Entry */}
-              <li className="relative flex flex-col gap-1 pl-8 mt-6">
-                <div
-                  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-[#2b88c6]"  // Blue color for the dots
-                ></div>
-                <div className="flex justify-between items-center w-full gap-8">
-                  <span className="font-semibold md:text-lg">Data Analytics</span>
-                  <span className="text-sm text-gray-400">2024 - 2025</span>
-                </div>
-                <span className="font-light">IronHack</span>
-              </li>
-            </ul>
+            <li className="relative flex flex-col gap-1 pl-8 mt-6">
+              <div
+                className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"  // Blue color for the dots
+              ></div>
+              <div className="flex justify-between items-center w-full gap-8">
+                <span className="font-semibold md:text-lg">Data Analytics</span>
+                <span className="text-sm text-gray-400">2024 - 2025</span>
+              </div>
+              <span className="font-light">IronHack</span>
+            </li>
           </div>
 
           {/* Skills Section */}
@@ -158,27 +161,3 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               </div>
             </ul>
           </div>             
-
-          {/* Languages Section */}
-          <section className="flex flex-col gap-5 border-b border-gray-300 dark:border-gray-700 p-5">
-            <h1 className="text-base font-semibold md:text-2xl text-left">LANGUAGE</h1>
-            <ul className="space-y-3">
-              <li>English (Fluent)</li>
-              <li>Portuguese (Native)</li>
-              <li>Spanish (Intermediate)</li>
-            </ul>
-          </section>
-
-          {/* Download Button */}
-          <div className="flex justify-center p-5">
-            <button className="bg-[#2b88c6] text-white py-2 px-4 rounded-full hover:bg-[#2a7db5] transition duration-300">
-              <BiDownload className="mr-2" /> Download CV
-            </button>
-          </div>
-        </div>
-      </div>
-    </aside>
-  );
-}
-
-export default HeaderLeft;
