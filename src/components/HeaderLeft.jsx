@@ -172,7 +172,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             <a
               href="/resume.pdf"
               download="CV-Cledenir Data.pdf"
-              className="px-4 py-2 bg-gray-700 text-white rounded-lg inline-block hover:bg-blue-600 transition"
+              className="px-4 py-2 bg-gray-700 text-white rounded-lg inline-block hover:bg-gray-700 transition"
             >
               Get the CV in PDF
             </a>
