@@ -19,10 +19,8 @@ const Home = () => {
               Data Analyst
             </h3>
           </div>
-        </div>
       </div>
 
-      
       {/* Main Section */}
       <main className="flex max-w-[1000px] flex-col gap-10 p-5 md:py-14 mr-20">
         <div className="space-y-5">
@@ -117,7 +115,7 @@ const Home = () => {
       {/* Courses Section */}
       <div className="flex max-w-[1000px] flex-col gap-3 px-10 -mt-5 mr-20">
         <div className="space-y-10">
-          <h2 className="text-xl font-Light tracking-wide md:text-2xl">Courses & Certifications</h2>
+          <h2 className="text-xl font-light tracking-wide md:text-2xl">Courses & Certifications</h2>
           <div className="relative max-w-3xl mt-6">
             {/* Left vertical line */}
             <div className="absolute left-[9px] top-[1px] h-[calc(100%-8px)] w-[1px] bg-gray-300 dark:bg-gray-700"></div>
@@ -131,7 +129,7 @@ const Home = () => {
                 <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
                 bg-[#2b88c6]"></div>
                 <div className="space-y-1">
-                  <h3 className="font-Light tracking-wide text-base">Data Visualization: A Lesson and Listen Series</h3>
+                  <h3 className="font-light tracking-wide text-base">Data Visualization: A Lesson and Listen Series</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkedin Learning</p>
                   <p className="text-sm text-gray-800">2024 - 2025</p>
                 </div>
@@ -142,7 +140,7 @@ const Home = () => {
                 <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
                 bg-[#2b88c6]"></div>
                 <div className="space-y-1">
-                  <h3 className="font-Light tracking-wide text-base">Advanced Python: Practical Database Examples</h3>
+                  <h3 className="font-light tracking-wide text-base">Advanced Python: Practical Database Examples</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkeding Learning</p>
                   <p className="text-sm text-gray-800">2025</p>
                 </div>
@@ -153,7 +151,7 @@ const Home = () => {
                 <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
                 bg-[#2b88c6]"></div>
                 <div className="space-y-1">
-                  <h3 className="font-Light tracking-wide text-base">Financial Modeling Foundations</h3>
+                  <h3 className="font-light tracking-wide text-base">Financial Modeling Foundations</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkedin Learning</p>
                   <p className="text-sm text-gray-800">2023</p>
                 </div>
@@ -164,7 +162,7 @@ const Home = () => {
                 <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
                 bg-[#2b88c6]"></div>
                 <div className="space-y-1">
-                  <h3 className="font-Light tracking-wide text-base">Google Data Analytics Professional Certificate</h3>
+                  <h3 className="font-light tracking-wide text-base">Google Data Analytics Professional Certificate</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Coursera</p>
                   <p className="text-sm text-gray-800">2023</p>
                 </div>
