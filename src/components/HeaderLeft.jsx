@@ -68,21 +68,30 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               </li>
             </ul>
           </section>
-          
-     {/* Portfolio Section */}
-        <div className="flex flex-col items-start justify-start gap-5 border-b border-gray-700 p-5">
-          <h1 className="section-title">
-            <span className="text-black dark:text-white">
-              PORTFOLIO
-            </span>
-          </h1>
-          <li className="flex items-center gap-2">
-            <BiBriefcase className="text-xl" />
-            <a href="https://cleidenirlopes.github.io/PORTIFOLIO/" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white hover:underline">My Portfolio</a>
-          </li>
-        </div>
 
+          {/* Portfolio Section */}
+          <div className="flex flex-col items-start justify-start gap-5 border-b border-gray-700 p-5">
+            <h1 className="section-title">
+              <span className="text-black dark:text-white">
+                PORTFOLIO
+              </span>
+            </h1>
+            <li className="flex items-center gap-2">
+              <BiBriefcase className="text-xl" />
+              <a href="https://cleidenirlopes.github.io/PORTIFOLIO/" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white hover:underline">My Portfolio</a>
+            </li>
+          </div>
 
+          {/* Download Resume Button */}
+          <div className="flex justify-center p-5">
+            <a
+              href="/resume.pdf"
+              download="My_Resume.pdf"
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg mt-5 inline-block hover:bg-blue-600 transition"
+            >
+              Download PDF
+            </a>
+          </div>
 
           {/* Education Section */}
           <div className="flex flex-col items-start justify-start gap-5 p-5">
@@ -93,10 +102,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
 
               {/* First Education Entry */}
               <li className="relative flex flex-col gap-1 pl-8">
-                <div
-                 className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                bg-[#2b88c6]"
-                ></div>
+                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-[#2b88c6]"></div>
                 <div className="flex justify-between items-center w-full gap-8">
                   <span className="font-semibold md:text-lg">Computer Science</span>
                   <span className="text-sm text-gray-400">1998 - 2003</span>
@@ -106,10 +112,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
 
               {/* Second Education Entry */}
               <li className="relative flex flex-col gap-1 pl-8 mt-6">
-                <div
-                 className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                bg-[#2b88c6]"
-                ></div>
+                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-[#2b88c6]"></div>
                 <div className="flex justify-between items-center w-full gap-8">
                   <span className="font-semibold md:text-lg">Data Analytics</span>
                   <span className="text-sm text-gray-400">2024 - 2025</span>
@@ -119,30 +122,29 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </div>
 
-          {/* Skills Section */}
+          {/* Personality Section */}
           <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">PERSONALITY</h1>
             <ul className="space-y-2">
               <li>Communicative</li>
               <li>Decision-Making</li>
               <li>Problem Solve</li>
-              <li>Active /Listening</li>
+              <li>Active / Listening</li>
             </ul>
           </section>
 
+          {/* Skills Section */}
           <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">SKILLS</h1>
-             <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3">
               <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Data Analysis</span>
               <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Data Visualization</span>
-              </div>
-
-              <div className="flex flex-wrap gap-3">
+            </div>
+            <div className="flex flex-wrap gap-3">
               <span className="rounded-xl bg-gray-700 text-white p-2 text-center">SQL & Databases</span>
               <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Python</span>
               <span className="rounded-xl bg-gray-700 text-white p-2 text-center">Excel</span>
-             </div>
-
+            </div>
           </div>
 
           {/* Hobbies Section */}
@@ -155,7 +157,6 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
                   <li>Cycling</li>
                   <li>Digital Creation</li>
                 </ul>
-
                 <ul className="flex list-disc flex-col gap-3">
                   <li>Reading</li>
                   <li>Running</li>
@@ -165,8 +166,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </div>
 
-
-          {/* Languages Section */}
+          {/* Language Section */}
           <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">LANGUAGE</h1>
             <ul className="space-y-3">
@@ -180,21 +180,5 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
     </aside>
   );
 }
-
-const HeaderLeft = () => {
-  return (
-    <div className="header-left">
-      {/* Other header content here */}
-
-      <a
-        href="/resume.pdf"
-        download="My_Resume.pdf"
-        className="px-4 py-2 bg-blue-500 text-white rounded-lg mt-5 inline-block hover:bg-blue-600 transition"
-      >
-        Download PDF
-      </a>
-    </div>
-  );
-};
 
 export default HeaderLeft;
