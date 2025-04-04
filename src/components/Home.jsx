@@ -132,7 +132,27 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* Add more courses as needed */}
+              {/* Course 3 */}
+              <div className="relative pl-8">
+                <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"></div>
+                <div className="space-y-1">
+                  <h3 className="font-light tracking-wide text-base">Financial Modeling Foundations</h3>
+                  <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkedin Learning</p>
+                  <p className="text-sm text-gray-800">2023</p>
+                </div>
+              </div>
+
+              {/* Course 4 */}
+              <div className="relative pl-8">
+                <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"></div>
+                <div className="space-y-1">
+                  <h3 className="font-light tracking-wide text-base">Google Data Analytics Professional Certificate</h3>
+                  <p className="font-light text-base text-gray-600 dark:text-gray-400">Coursera</p>
+                  <p className="text-sm text-gray-800">2023</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
