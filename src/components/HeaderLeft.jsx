@@ -82,16 +82,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </li>
           </div>
 
-          {/* Download Resume Button */}
-          <div className="flex justify-center p-5">
-            <a
-              href="/resume.pdf"
-              download="My_Resume.pdf"
-              className="px-4 py-2 bg-blue-500 text-white rounded-lg mt-5 inline-block hover:bg-blue-600 transition"
-            >
-              Download PDF
-            </a>
-          </div>
+         
 
           {/* Education Section */}
           <div className="flex flex-col items-start justify-start gap-5 p-5">
@@ -180,5 +171,16 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
     </aside>
   );
 }
+
+{/* Download Resume Button */}
+<div className="flex justify-center p-5">
+  <a
+    href="/resume.pdf"
+    download="My_Resume.pdf"
+    className="px-4 py-2 bg-blue-500 text-white rounded-lg mt-5 inline-block hover:bg-blue-600 transition"
+  >
+   📌 Get the CV in PDF
+  </a>
+</div>
 
 export default HeaderLeft;
