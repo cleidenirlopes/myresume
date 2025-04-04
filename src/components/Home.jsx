@@ -2,13 +2,13 @@ import React from 'react';
 
 const Home = () => {
   return (
-          <div className="min-h-screen flex-[3] transition-all duration-500 bg-[#ffffff] text-[#151a1e] dark:bg-[#151a1e] dark:text-[#ffffff] font-light">
+               <div className="min-h-screen flex-[3] transition-all duration-500 bg-[#ffffff] text-[#151a1e] dark:bg-[#151a1e] dark:text-[#ffffff] font-light">
         {/* Profile Section */}
         <div className="flex flex-col items-center justify-center gap-5 relative mt-20 mr-20 max-w-3xl">
           {/* Added margin-top to create space above */}
           <div className="space-y-2 text-center">
             <h1 className="text-6xl font-extralight tracking-wide">
-              <span className="text-white dark:text-black">
+              <span className="text-black dark:text-white">
                 Cledenir
               </span> 
               <span className="font-medium text-[#2b88c6]">
@@ -19,7 +19,9 @@ const Home = () => {
               Data Analyst
             </h3>
           </div>
+        </div>
       </div>
+
 
       {/* Main Section */}
       <main className="flex max-w-[1000px] flex-col gap-10 p-5 md:py-14 mr-20">
