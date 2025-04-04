@@ -167,13 +167,14 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </section>
 
-         {/* Download Resume Info Text */}
+            {/* Download Resume Info Text */}
         <div className="flex justify-center p-5 mt-5">
-          <p className="text-center text-white dark:text-white text-lg md:text-xl tracking-wide flex items-center gap-2">
+          <p className="text-center text-black dark:text-white text-lg md:text-xl font-medium tracking-wide flex items-center gap-2">
             <span className="text-blue-400 text-2xl">ℹ️</span>
             Get the CV in PDF
           </p>
         </div>
+
        </div>
       </div>
     </aside>
