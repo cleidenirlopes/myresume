@@ -169,17 +169,18 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           
           
         {/* Download Resume Info Link (Text with Icon) */}
-          <div className="flex justify-center p-5 mt-5">
-            <a
-              href="/resume.pdf"
-              download="CV-Cledenir Data.pdf"
-              className="text-center text-black dark:text-white text-lg md:text-xl font-medium tracking-wide flex items-center gap-2 hover:underline hover:text-blue-500 transition"
-            >
-              <span className="text-blue-400 text-2xl">ℹ️</span>
-              Get the CV in PDF
-            </a>
-          </div>
-          
+<div className="flex justify-center p-5 mt-5">
+  <a
+    href="/resume.pdf"
+    download="CV-Cledenir Data.pdf"
+    className="text-center text-black dark:text-white text-lg md:text-xl font-medium tracking-wide flex items-center gap-2 hover:underline hover:text-blue-500 transition"
+    onClick={(e) => e.stopPropagation()} // Prevent any theme change
+  >
+    <span className="text-blue-400 text-2xl">ℹ️</span>
+    Get the CV in PDF
+  </a>
+</div>
+
 
        </div>
       </div>
