@@ -167,16 +167,14 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </section>
 
-          {/* Download Resume Button */}
+          {/* Download Resume Info Text */}
           <div className="flex justify-center p-5 mt-5">
-            <a
-              href="/resume.pdf"
-              download="CV-Cledenir Data.pdf"
-              className="px-4 py-2 bg-gray-700 text-white rounded-lg inline-block hover:bg-gray-700 transition"
-            >
+            <p className="text-center text-white text-sm tracking-wide flex items-center gap-2">
+              <span className="text-blue-400 text-lg">ℹ️</span>
               Get the CV in PDF
-            </a>
+            </p>
           </div>
+
 
         </div>
       </div>
