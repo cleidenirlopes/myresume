@@ -6,8 +6,12 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
-    setDarkMode((prevMode) => !darkMode);
-    document.documentElement.classList.toggle("dark", !darkMode);
+    // Use prevMode to ensure toggling correctly
+    setDarkMode((prevMode) => {
+      const newMode = !prevMode;
+      document.documentElement.classList.toggle("dark", newMode);
+      return newMode;
+    });
   };
 
   return (
@@ -28,3 +32,4 @@ function App() {
 }
 
 export default App;
+
