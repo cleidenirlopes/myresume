@@ -181,4 +181,20 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
   );
 }
 
+const HeaderLeft = () => {
+  return (
+    <div className="header-left">
+      {/* Other header content here */}
+
+      <a
+        href="/resume.pdf"
+        download="My_Resume.pdf"
+        className="px-4 py-2 bg-blue-500 text-white rounded-lg mt-5 inline-block hover:bg-blue-600 transition"
+      >
+        Download PDF
+      </a>
+    </div>
+  );
+};
+
 export default HeaderLeft;
