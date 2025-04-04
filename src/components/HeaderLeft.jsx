@@ -168,18 +168,15 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </section>
 
           {/* Download Resume Button */}
-        <div className="flex flex-col items-center gap-2 justify-center p-5 mt-5">
-          <p className="text-center text-white text-sm tracking-wide">
-            Click the button below to download my full resume in PDF format.
-          </p>
-          <a
-            href="/resume.pdf"
-            download="CV-Cledenir Data.pdf"
-            className="px-4 py-2 bg-blue-500 text-white rounded-lg inline-block hover:bg-blue-600 transition"
-          >
-            📌 Get the CV in PDF
-          </a>
-        </div>
+          <div className="flex justify-center p-5 mt-5">
+            <a
+              href="/resume.pdf"
+              download="CV-Cledenir Data.pdf"
+              className="px-4 py-2 bg-gray-700 text-white rounded-lg inline-block hover:bg-blue-600 transition"
+            >
+              Get the CV in PDF
+            </a>
+          </div>
 
         </div>
       </div>
