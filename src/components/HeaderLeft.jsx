@@ -78,7 +78,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </h1>
             <li className="flex items-center gap-2">
               <BiBriefcase className="text-xl" />
-              <a href="https://cleidenirlopes.github.io/PORTIFOLIO/" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white hover:underline">My Portfolio</a>
+              <a href="https://cledenir-portifolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white hover:underline">My Portfolio</a>
             </li>
           </div>
 
