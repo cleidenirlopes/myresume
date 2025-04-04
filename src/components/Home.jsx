@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-          <div className="min-h-screen flex-[3] transition-all duration-500 dark:bg-[#151a1e] bg-[#ffffff] dark:text-[#d8dcde] text-[#151a1e] font-light">
+          <div className="min-h-screen flex-[3] transition-all duration-500 bg-[#ffffff] text-[#151a1e] dark:bg-[#151a1e] dark:text-[#ffffff] font-light">
         {/* Profile Section */}
         <div className="flex flex-col items-center justify-center gap-5 relative mt-20 mr-20 max-w-3xl">
           {/* Added margin-top to create space above */}
