@@ -2,21 +2,25 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex-[3] transition-all duration-500 dark:bg-[#151a1e] bg-[#ffffff] dark:text-[#d8dcde] text-[#151a1e] font-light">
-      {/* Profile Section */}
-      <div className="flex flex-col items-center justify-center gap-5 relative mt-20 mr-20 max-w-3xl">
-        {/* Added margin-top to create space above */}
-        <div className="space-y-2 text-center">
-          <h1 className="text-6xl font-extralight tracking-wide text-[#2b88c6]">
-            {/* Increased font size for the name */}
-            Cledenir <span className="font-medium">Souza</span>
-          </h1>
-          <h3 className="text-3xl font-extralight tracking-wider text-[#d8dcde] dark:text-[#d8dcde]">
-            Data Analyst
-          </h3>
-        </div>
+          <div className="min-h-screen flex-[3] transition-all duration-500 bg-[#ffffff] text-[#151a1e] dark:bg-[#151a1e] dark:text-[#ffffff] font-light">
+        {/* Profile Section */}
+        <div className="flex flex-col items-center justify-center gap-5 relative mt-20 mr-20 max-w-3xl">
+          {/* Added margin-top to create space above */}
+          <div className="space-y-2 text-center">
+            <h1 className="text-6xl font-extralight tracking-wide">
+              <span className="text-white dark:text-black">
+                Cledenir
+              </span> 
+              <span className="font-medium text-[#2b88c6]">
+                Souza
+              </span>
+            </h1>
+            <h3 className="text-3xl font-extralight tracking-wider text-[#151a1e] dark:text-[#d8dcde]">
+              Data Analyst
+            </h3>
+          </div>
       </div>
-      
+
       {/* Main Section */}
       <main className="flex max-w-[1000px] flex-col gap-10 p-5 md:py-14 mr-20">
         <div className="space-y-5">
@@ -45,11 +49,11 @@ const Home = () => {
               <li className="relative flex flex-col gap-1 pl-8">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-black dark:bg-white"
+                bg-[#2b88c6]"
                 ></div>
                  <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">CUSTOMER SUPPORT ANALYST</span>
-                  <span className="text-sm text-gray-400 font-light">2024 - Current</span>
+                  <span className="text-sm text-gray-800 font-light">2024 - Current</span>
                 </div>
                 <span className="font-light tracking-wide mb-4">Entain Group ¦ Lisbon</span>
                 <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
@@ -61,11 +65,11 @@ const Home = () => {
               <li className="relative flex flex-col gap-1 pl-8 mt-6">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-black dark:bg-white"
+                bg-[#2b88c6]"
                 ></div>
                 <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">CONTENT MODERATION SPECIALIST</span>
-                  <span className="text-sm text-gray-400 font-light">2023 - 2024</span>
+                  <span className="text-sm text-gray-800 font-light">2023 - 2024</span>
                 </div>
                 <span className="font-light tracking-wide mb-4">Accenture ¦ Lisbon</span>
                 <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
@@ -77,11 +81,11 @@ const Home = () => {
               <li className="relative flex flex-col gap-1 pl-8 mt-6">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-black dark:bg-white"
+                bg-[#2b88c6]"
                 ></div>
                  <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">DESKTOP SUPPORT TECHNICIAN</span>
-                  <span className="text-sm text-gray-400 font-light">2014 - 2017</span>
+                  <span className="text-sm text-gray-800 font-light">2014 - 2017</span>
                 </div>
                 <span className="font-light tracking-wide mb-4">Wisdom Hardware ¦ São Paulo</span>
                 <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
@@ -93,11 +97,11 @@ const Home = () => {
               <li className="relative flex flex-col gap-1 pl-8 mt-6">
                 <div
                   className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
-                  bg-black dark:bg-white"
+                bg-[#2b88c6]"
                 ></div>
                 <div className="flex justify-between items-center w-full gap-32">
                   <span className="font-medium tracking-wide md:text-lg">IT SUPPORT SPECIALIST</span>
-                  <span className="text-sm text-gray-400 font-light">2005 - 2011</span>
+                  <span className="text-sm text-gray-800 font-light">2005 - 2011</span>
                 </div>
                 <span className="font-light tracking-wide mb-4">Souza Cruz ¦ São Paulo</span>
                 <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
@@ -111,7 +115,7 @@ const Home = () => {
       {/* Courses Section */}
       <div className="flex max-w-[1000px] flex-col gap-3 px-10 -mt-5 mr-20">
         <div className="space-y-10">
-          <h2 className="text-xl font-Light tracking-wide md:text-2xl">Courses & Certifications</h2>
+          <h2 className="text-xl font-light tracking-wide md:text-2xl">Courses & Certifications</h2>
           <div className="relative max-w-3xl mt-6">
             {/* Left vertical line */}
             <div className="absolute left-[9px] top-[1px] h-[calc(100%-8px)] w-[1px] bg-gray-300 dark:bg-gray-700"></div>
@@ -122,41 +126,45 @@ const Home = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
               {/* Course 1 */}
               <div className="relative pl-8">
-                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-black dark:bg-white"></div>
+                <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"></div>
                 <div className="space-y-1">
-                  <h3 className="font-Light tracking-wide text-base">Data Visualization: A Lesson and Listen Series</h3>
+                  <h3 className="font-light tracking-wide text-base">Data Visualization: A Lesson and Listen Series</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkedin Learning</p>
-                  <p className="text-sm text-gray-400">2024 - 2025</p>
+                  <p className="text-sm text-gray-800">2024 - 2025</p>
                 </div>
               </div>
 
               {/* Course 2 */}
               <div className="relative pl-8">
-                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-black dark:bg-white"></div>
+                <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"></div>
                 <div className="space-y-1">
-                  <h3 className="font-Light tracking-wide text-base">Advanced Python: Practical Database Examples</h3>
+                  <h3 className="font-light tracking-wide text-base">Advanced Python: Practical Database Examples</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkeding Learning</p>
-                  <p className="text-sm text-gray-400">2025</p>
+                  <p className="text-sm text-gray-800">2025</p>
                 </div>
               </div>
 
               {/* Course 3 */}
               <div className="relative pl-8">
-                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-black dark:bg-white"></div>
+                <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"></div>
                 <div className="space-y-1">
-                  <h3 className="font-Light tracking-wide text-base">Financial Modeling Foundations</h3>
+                  <h3 className="font-light tracking-wide text-base">Financial Modeling Foundations</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Linkedin Learning</p>
-                  <p className="text-sm text-gray-400">2023</p>
+                  <p className="text-sm text-gray-800">2023</p>
                 </div>
               </div>
 
               {/* Course 4 */}
               <div className="relative pl-8">
-                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-black dark:bg-white"></div>
+                <div  className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full 
+                bg-[#2b88c6]"></div>
                 <div className="space-y-1">
-                  <h3 className="font-Light tracking-wide text-base">Google Data Analytics Professional Certificate</h3>
+                  <h3 className="font-light tracking-wide text-base">Google Data Analytics Professional Certificate</h3>
                   <p className="font-light text-base text-gray-600 dark:text-gray-400">Coursera</p>
-                  <p className="text-sm text-gray-400">2023</p>
+                  <p className="text-sm text-gray-800">2023</p>
                 </div>
               </div>
             </div>
@@ -168,3 +176,5 @@ const Home = () => {
 }
 
 export default Home;
+
+
