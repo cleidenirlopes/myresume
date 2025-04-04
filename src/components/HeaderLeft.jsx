@@ -157,8 +157,8 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </div>
 
-          {/* Language Section */}
-          <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
+           {/* Language Section */}
+           <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">LANGUAGE</h1>
             <ul className="space-y-3">
               <li>English (Fluent)</li>
@@ -166,21 +166,23 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               <li>Spanish (Intermediate)</li>
             </ul>
           </section>
+
+          {/* Download Resume Button */}
+          <div className="flex justify-center p-5 mt-5">
+            <a
+              href="/resume.pdf"
+              download="CV-Cledenir Data.pdf"
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg inline-block hover:bg-blue-600 transition"
+            >
+              📌 Get the CV in PDF
+            </a>
+          </div>
+
         </div>
       </div>
     </aside>
   );
 }
 
-{/* Download Resume Button */}
-<div className="flex justify-center p-5">
-  <a
-    href="/resume.pdf"
-    download="My_Resume.pdf"
-    className="px-4 py-2 bg-blue-500 text-white rounded-lg mt-5 inline-block hover:bg-blue-600 transition"
-  >
-   📌 Get the CV in PDF
-  </a>
-</div>
 
 export default HeaderLeft;
