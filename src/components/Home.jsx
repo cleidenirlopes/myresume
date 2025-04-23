@@ -27,7 +27,9 @@ const Home = () => {
             About Me
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base max-w-3xl font-light leading-relaxed">
-          Aspiring Data Analyst with a background in Technical Support, recently completed an intensive Data Analytics Bootcamp at IronHack. Proficient in Python, SQL, and data visualization tools. Known for strong problem-solving skills, attention to detail, and the ability to interpret complex datasets to identify trends, patterns, and opportunities. Passionate about using data to support informed decision-making and continuous improvement. Leveraging 5+ years of customer-facing experience to bring a unique perspective to data analysis, combining technical aptitude with strong communication skills. Eager to apply my problem-solving abilities and fresh analytical skills to contribute to data-driven projects while continuing to grow in the field of data analytics.
+         Aspiring Data Analyst with a strong background in Technical Support, recently graduated from an intensive Data Analytics Bootcamp at IronHack. Skilled in Python, SQL, and data visualization tools such as Power BI and Tableau.
+         Known for sharp problem-solving abilities, attention to detail, and a talent for interpreting complex datasets to uncover trends and actionable insights. Passionate about turning data into clear, data-driven decisions that support continuous improvement.
+         Bringing over 5 years of experience in customer-facing roles, combining technical aptitude with excellent communication skills. Eager to contribute to impactful data projects while continuously evolving as a data professional.
           </p>
         </div>
 
@@ -50,9 +52,13 @@ const Home = () => {
                 <span className="text-sm text-gray-800 dark:text-gray-300 font-light">2024 - Current</span>
               </div>
               <span className="font-light tracking-wide mb-4">Entain Group ¦ Lisbon</span>
-              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
-                Demonstrated expertise in providing exceptional customer support within a fast-paced global gaming environment. Successfully managed complex technical inquiries while maintaining a 95% customer satisfaction rate. Leveraged analytical skills to identify patterns in customer issues, contributing to process improvements and enhanced user experience. Collaborated with international teams to streamline support workflows and implement data-driven solutions for recurring challenges.
-              </p>
+              <ul className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed list-disc list-inside space-y-1">
+              <li>Provided exceptional customer support in a fast-paced global gaming environment.</li>
+              <li>Maintained a 95% customer satisfaction rate by resolving complex technical inquiries.</li>
+              <li>Analyzed customer issues to identify patterns and contribute to process improvements.</li>
+              <li>Enhanced user experience through data-driven insights and feedback loops.</li>
+              <li>Collaborated with international teams to streamline support workflows and implement solutions.</li>
+            </ul>
             </li>
 
             {/* Accenture */}
@@ -63,9 +69,13 @@ const Home = () => {
                 <span className="text-sm text-gray-800 dark:text-gray-300 font-light">2023 - 2024</span>
               </div>
               <span className="font-light tracking-wide mb-4">Accenture ¦ Lisbon</span>
-              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
-                Managed content moderation operations using data-driven approaches to maintain platform integrity. Utilized advanced CRM tools to track and analyze user interactions, creating detailed reports that led to a 30% improvement in response efficiency. Implemented systematic data collection methods to identify trending issues and patterns, contributing to preventive measures. Collaborated with analytics teams to develop KPI dashboards for monitoring moderation effectiveness and team performance metrics.
-              </p>
+              <ul className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed list-disc list-inside space-y-1">
+              <li>Managed content moderation operations using data-driven approaches to maintain platform integrity.</li>
+              <li>Utilized advanced CRM tools to track and analyze user interactions, creating reports that improved response efficiency by 30%.</li>
+              <li>Implemented systematic data collection methods to identify trending issues and patterns for proactive solutions.</li>
+              <li>Collaborated with analytics teams to develop KPI dashboards for monitoring moderation effectiveness and team performance.</li>
+            </ul>
+
             </li>
 
             {/* Wisdom */}
@@ -89,9 +99,12 @@ const Home = () => {
                 <span className="text-sm text-gray-800 dark:text-gray-300 font-light">2005 - 2011</span>
               </div>
               <span className="font-light tracking-wide mb-4">Souza Cruz ¦ São Paulo</span>
-              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed">
-                Provided comprehensive IT support for regional office operations, focusing on hardware troubleshooting and network maintenance. Developed and maintained internal documentation systems to track recurring technical issues and solutions. Created monthly reports to analyze support tickets and system performance, helping identify areas for improvement. Collaborated with the local IT team to implement preventive maintenance procedures and optimize system efficiency.
-              </p>
+              <ul className="text-sm text-gray-600 dark:text-gray-400 md:text-base font-light leading-relaxed list-disc list-inside space-y-1">
+              <li>Led technical support operations for a major hardware retailer, managing system diagnostics and performance optimization.</li>
+              <li>Developed and maintained detailed technical documentation, reducing average resolution time by 25%.</li>
+              <li>Implemented systematic tracking of hardware failures and software issues to support data-driven inventory and maintenance decisions.</li>
+              <li>Coordinated with vendors to analyze performance metrics and optimize hardware lifecycle management.</li>
+            </ul>
             </li>
           </ul>
         </div>
