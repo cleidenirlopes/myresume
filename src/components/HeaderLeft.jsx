@@ -35,18 +35,21 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           {/* Contact Section */}
           <section className="flex flex-col items-start gap-5 border-b border-gray-700 p-5">
             <ul className="space-y-3">
-              <li className="flex items-center gap-2">
-                <BiCurrentLocation className="text-xl" />
-                <span className="font-light tracking-wide">Lisbon, Portugal </span>
+            <li className="flex items-center gap-2">
+                <BiPhone className="text-xl" />
+                <span className="font-light tracking-wide">+351 914 569 328</span>
               </li>
+            
               <li className="flex items-center gap-2">
                 <BiEnvelope className="text-xl" />
                 <span className="font-light tracking-wide">cleidenirlopes@outlook.com</span>
               </li>
+             
               <li className="flex items-center gap-2">
-                <BiPhone className="text-xl" />
-                <span className="font-light tracking-wide">+351 914 569 328</span>
+                <BiCurrentLocation className="text-xl" />
+                <span className="font-light tracking-wide">Lisbon, Portugal </span>
               </li>
+
             </ul>
           </section>
 
@@ -58,32 +61,20 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
                 <BiLogoGithub className="text-xl" />
                 <a href="https://github.com/cleidenirlopes" target="_blank" rel="noopener noreferrer" className="font-light tracking-wide hover:underline">Github</a>
               </li>
-              <li className="flex items-center gap-2">
-                <BiLogoTwitter className="text-xl" />
-                <a href="https://x.com/DCledenir" target="_blank" rel="noopener noreferrer" className="font-light tracking-wide hover:underline">Twitter - X</a>
-              </li>
+             
               <li className="flex items-center gap-2">
                 <BiLogoLinkedin className="text-xl" />
                 <a href="https://www.linkedin.com/in/decledenir/" target="_blank" rel="noopener noreferrer" className="font-light tracking-wide hover:underline">Linkedin</a>
               </li>
-            </ul>
-          </section>
 
-          {/* Portfolio Section */}
-          <div className="flex flex-col items-start justify-start gap-5 border-b border-gray-700 p-5">
-            <h1 className="section-title">
-              <span className="text-black dark:text-white">
-                PORTFOLIO
-              </span>
-            </h1>
-            <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2">
               <BiBriefcase className="text-xl" />
               <a href="https://cledenir-portifolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white hover:underline">My Portfolio</a>
             </li>
-          </div>
+            </ul>
+          </section>
 
          
-
           {/* Education Section */}
           <div className="flex flex-col items-start justify-start gap-5 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">EDUCATION</h1>

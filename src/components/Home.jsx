@@ -27,7 +27,7 @@ const Home = () => {
             About Me
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base max-w-3xl font-light leading-relaxed">
-            Transitioning Technical Support Professional with a growing passion for data analytics and visualization. Currently immersed in an intensive Data Analytics bootcamp at IronHack, where I'm building expertise in SQL, Python, and data visualization tools. Leveraging 5+ years of customer-facing experience to bring a unique perspective to data analysis, combining technical aptitude with strong communication skills. Eager to apply my problem-solving abilities and fresh analytical skills to contribute to data-driven projects while continuing to grow in the field of data analytics.
+          Aspiring Data Analyst with a background in Technical Support, recently completed an intensive Data Analytics Bootcamp at IronHack. Proficient in Python, SQL, and data visualization tools. Known for strong problem-solving skills, attention to detail, and the ability to interpret complex datasets to identify trends, patterns, and opportunities. Passionate about using data to support informed decision-making and continuous improvement. Leveraging 5+ years of customer-facing experience to bring a unique perspective to data analysis, combining technical aptitude with strong communication skills. Eager to apply my problem-solving abilities and fresh analytical skills to contribute to data-driven projects while continuing to grow in the field of data analytics.
           </p>
         </div>
 
