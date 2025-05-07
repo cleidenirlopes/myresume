@@ -11,6 +11,14 @@ import {
   BiBriefcase,
 } from "react-icons/bi";
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/CV.png" type="image/png" />
+  <title></title>
+</head>
+
+
 function HeaderLeft({ darkMode, toggleDarkMode }) {
   return (
     <aside className="w-3/10 min-h-screen p-5 dark:bg-[#151a1e] dark:text-white font-light">
