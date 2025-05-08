@@ -87,42 +87,43 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           <div className="flex flex-col items-start justify-start gap-5 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">EDUCATION</h1>
             <ul className="relative">
-              {/* Vertical Line */}
-              <div className="absolute left-[9px] top-0 h-full w-[1px] bg-gray-700"></div>
+              
+              <ul className="w-full relative border-l-2 border-gray-300 dark:border-gray-600">
 
-              {/* First Education Entry */}
-              <li className="relative flex flex-col gap-1 pl-8 mt-6">
-                <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-[#2b88c6]"></div>
+              {/* Data Analytics - First */}
+              <li className="relative pl-8 mt-6">
+                {/* Blue Dot */}
+                <div className="absolute left-[-6px] top-2 h-3 w-3 rounded-full bg-[#2b88c6]"></div>
+                <div className="flex justify-between items-center w-full gap-8">
+                  <span className="font-semibold md:text-lg">Data Analytics</span>
+                  <span className="text-sm text-gray-400">2024 - 2025</span>
+                </div>
+                <span className="font-light mb-2">IronHack • Lisbon</span>
+                <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 font-normal mb-1">
+                  <li>Python, SQL, and data visualization.</li>
+                  <li>Power BI and storytelling techniques.</li>
+                  <li>Worked on real-world projects.</li>
+                </ul>
+              </li>
+
+              {/* Computer Science - Second */}
+              <li className="relative pl-8 mt-6">
+                {/* Blue Dot */}
+                <div className="absolute left-[-6px] top-2 h-3 w-3 rounded-full bg-[#2b88c6]"></div>
                 <div className="flex justify-between items-center w-full gap-8">
                   <span className="font-semibold md:text-lg">Computer Science</span>
                   <span className="text-sm text-gray-400">1998 - 2003</span>
                 </div>
-                <span className="font-light mb-2">
-                  University Unicamp
-                </span>                
+                <span className="font-light mb-2">University Unicamp</span>
                 <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 font-normal mb-1">
-                <li>Focused on algorithms and logic.</li>
-                <li>Operating systems, and networks.</li>
-                <li>Early Java programming languages.</li>
+                  <li>Focused on algorithms and logic.</li>
+                  <li>Operating systems, and networks.</li>
+                  <li>Early Java programming languages.</li>
+                </ul>
+              </li>
               </ul>
-              </li> 
-
-              {/* Second Education Entry */}
-            <li className="relative flex flex-col gap-1 pl-8 mt-6">
-              <div className="absolute left-[4px] top-[8px] h-3 w-3 rounded-full bg-[#2b88c6]"></div>
-              <div className="flex justify-between items-center w-full gap-8">
-                <span className="font-semibold md:text-lg">Data Analytics</span>
-                <span className="text-sm text-gray-400">2024 - 2025</span>
+              </ul>
               </div>
-              <span className="font-light mb-2">IronHack • Lisbon</span>
-              <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 font-normal mb-1">
-                <li>Python, SQL, and data visualization.</li>
-                <li>Power BI and storytelling techniques.</li>
-                <li>Worked on real-world projects.</li>
-              </ul>
-            </li>
-            </ul>
-          </div>
 
 
           {/* Personality Section */}
@@ -144,11 +145,9 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             <li>Data Visualization</li>
             <li>SQL & Databases</li>
             <li>Python</li>
+            <li>Power BI & Tablaeu</li>
             </ul>
         </div>
-
-
-
 
           {/* Hobbies Section */}
           <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
