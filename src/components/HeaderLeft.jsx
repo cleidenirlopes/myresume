@@ -106,18 +106,18 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </div>
 
           {/* Soft Skills Section */}
-          <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
-            <h1 className="text-base font-semibold md:text-2xl text-left">SOFTSKILLS</h1>
-            <ul className="space-y-2">
-              <li>Teamwork</li>
-              <li>Communicative</li>
-              <li>Adaptability</li>
-              <li>Empathy</li>
-              <li>Active / Listening</li>
-              <li>Problem Solving</li>
-              <li>Creativity</li>
-            </ul>
-          </section>
+        <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
+          <h1 className="text-base font-semibold md:text-2xl text-left">SOFTSKILLS</h1>
+          <ul className="space-y-2">
+            <li>• Teamwork</li>
+            <li>• Communicative</li>
+            <li>• Adaptability</li>
+            <li>• Empathy</li>
+            <li>• Active / Listening</li>
+            <li>• Problem Solving</li>
+            <li>• Creativity</li>
+          </ul>
+        </section>
 
       {/* Skills Section */}
         <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
