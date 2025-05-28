@@ -124,7 +124,11 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           <ul className="list-disc list-inside text-xl text-gray-600 dark:text-gray-400 font-medium space-y-2">
             
               <span className="font-bold">Data Analysis:</span>{' '}
-              <span className="text-base font-normal"> <li> Python (Pandas, NumPy), Power Query</li></span>            
+              <span className="text-base font-normal"> <li> Python (Pandas, NumPy), Power Query</li></span> 
+
+              <span className="font-bold">A/B Testing:</span>{' '}
+              <span className="text-base font-normal"> <li> Hypothesis-Driven Experiments</li></span>            
+                       
             
               <span className="font-bold">Dashaboard Visualization:</span>{' '}
               <span className="text-base font-normal"> <li> Power BI, Tableau, Matplotlib,</li> </span>            
