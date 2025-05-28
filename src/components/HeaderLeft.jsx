@@ -19,10 +19,13 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           {/* Profile Section */}
           <div className="flex flex-col items-center justify-center gap-5 relative">
             <img 
-              src="/peaches.jpg" 
+              src="/Profile.JPG" 
               alt="Profile" 
-              className="w-64 rounded-full"
+              className="w-48 rounded-full"
+              
             />
+
+            
             <button
               className="absolute right-0 -top-12 p-2 rounded-full bg-gray-700 text-white"
               onClick={toggleDarkMode}
@@ -104,25 +107,35 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
 
           {/* Personality Section */}
           <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
-            <h1 className="text-base font-semibold md:text-2xl text-left">PERSONALITY</h1>
+            <h1 className="text-base font-semibold md:text-2xl text-left">SOFTSKILLS</h1>
             <ul className="space-y-2">
               <li>Communicative</li>
-              <li>Decision-Making</li>
-              <li>Problem Solve</li>
+              <li>Adaptability</li>
+              <li>Empathy</li>
               <li>Active / Listening</li>
+              <li>Problem Solving</li>
+              <li>Creativity</li>
             </ul>
           </section>
 
-         {/* Skills Section */}
+      {/* Skills Section */}
         <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
-          <h1 className="text-xl font-semibold md:text-2xl text-left">SKILLS</h1>
-          <ul className="list-disc list-inside text-xl text-gray-600 dark:text-gray-400 font-medium">
-            <li>Data Analysis</li>
-            <li>Data Visualization</li>
-            <li>SQL & Databases</li>
-            <li>Python</li>
-            <li>Power BI & Tablaeu</li>
-            </ul>
+          <h1 className="text-xl font-semibold md:text-2xl text-left">TECH SKILLS</h1>
+          <ul className="list-disc list-inside text-xl text-gray-600 dark:text-gray-400 font-medium space-y-2">
+            
+              <span className="font-bold">Data Analysis:</span>{' '}
+              <span className="text-base font-normal"> <li> Python (Pandas, NumPy), Power Query</li></span>            
+            
+              <span className="font-bold">Dashaboard Visualization:</span>{' '}
+              <span className="text-base font-normal"> <li> Power BI, Tableau, Matplotlib,</li> </span>            
+          
+              <span className="font-bold">Databases & SQL:</span>{' '}
+              <span className="text-base font-normal"> <li> MySQL, SQL Server, </li> </span>            
+            
+              <span className="font-bold">Tools & Libraries:</span>{' '}
+              <span className="text-base font-normal"> <li> Jupyter Notebook, VS Code, Git/GitHub</li> </span>
+            
+          </ul>
         </div>
 
           {/* Hobbies Section */}

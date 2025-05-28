@@ -27,13 +27,11 @@ const Home = () => {
             About Me
             </h2>
             <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base max-w-3xl font-light leading-relaxed">
-            Aspiring <strong>Data Analyst</strong> with a strong background in <strong>Technical Support</strong>, recently graduated from an intensive <strong>Data Analytics Bootcamp</strong> at IronHack. Skilled in <strong>Python</strong>, <strong>SQL</strong>, and <strong>data visualization</strong> tools such as <strong>Power BI</strong> and <strong>Tableau</strong>.  
+            Impact-Focused <strong>Data Analyst</strong> with a strong background in <strong>Technical Support</strong>, recently graduated from an intensive <strong>Data Analytics Bootcamp</strong> at IronHack. Skilled in <strong>Dashboard Mangement</strong>, <strong>Python</strong>, <strong>SQL</strong>, <strong> ETL (Extract, Transform, Load)</strong>, <strong> Agile / Scrum Collaboration </strong> and <strong>data visualization</strong> tools such as <strong>Power BI</strong> and <strong>Tableau</strong>.  
             Known for sharp <strong>problem-solving</strong> abilities, <strong>attention to detail</strong>, and a talent for <strong>interpreting complex datasets</strong> to uncover <strong>trends</strong> and <strong>actionable insights</strong>. Passionate about turning data into clear, <strong>data-driven decisions</strong> that support <strong>continuous improvement</strong>.  
             Bringing over 5 years of experience in <strong>customer-facing roles</strong>, combining <strong>technical aptitude</strong> with excellent <strong>communication skills</strong>. Eager to contribute to impactful <strong>data projects</strong> while continuously evolving as a <strong>data professional</strong>.
             </p>
         </div>
-
-
 
         <div className="space-y-1">
           <h2 className="text-xl font-medium tracking-wide md:text-2xl">Projects</h2>
@@ -52,7 +50,7 @@ const Home = () => {
           <div className="absolute -left-2 top-2 h-3 w-3 rounded-full bg-[#2b88c6] z-10"></div>
                      
           <h3 className="font-medium text-lg">The Guardians of the Voiceless</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Personal Project • 2025</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Personal Project • April - 2025</p>
           <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
             Connected abandoned dogs with shelters using real data and APIs.
           </p>
@@ -60,7 +58,7 @@ const Home = () => {
           <ul className="list-disc list-inside text-sm mt-2 text-gray-600 dark:text-gray-400 space-y-1">
             <li>Python • SQL • Streamlit</li>
             <li>Petfinder API • Google Maps API</li>
-            <p className="mt-1 text-sm">📌 More details available in my portfolio.</p>
+            <p className="mt-1 text-sm">📌https://cledenir-portifolio.netlify.app/.</p>
           </ul>
         </div>
 
@@ -72,7 +70,7 @@ const Home = () => {
           <div className="absolute -left-2 top-2 h-3 w-3 rounded-full bg-[#2b88c6]"></div>           
 
           <h3 className="font-medium text-lg">The Escape Room</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Game Building • 2025</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Game Building • Dezember - 2024</p>
           <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
             A fast-paced, immersive game focused on logic and creativity.
           </p>
@@ -80,7 +78,7 @@ const Home = () => {
           <ul className="list-disc list-inside text-sm mt-2 text-gray-600 dark:text-gray-400 space-y-1">
             <li>Critical thinking under pressure</li>
             <li>Teamwork and puzzle-solving</li>
-            <p className="mt-1 text-sm">📌 More details available in my portfolio.</p>
+            <p className="mt-1 text-sm">📌https://cledenir-portifolio.netlify.app/.</p>
           </ul>
         </div>
 
@@ -89,8 +87,8 @@ const Home = () => {
          {/* Timeline-style vertical line */}
          <div className="absolute left-[-2px] top-[1px] h-full w-[1px] bg-gray-300 dark:bg-gray-700 z-0"></div>
         <div className="absolute -left-2 top-2 h-3 w-3 rounded-full bg-[#2b88c6]"></div>
-        <h3 className="font-medium text-lg">Immigration Data Visualization</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Data Visualization Project • 2025</p>
+        <h3 className="font-medium text-lg">Migration Data Visualization</h3>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Data Visualization Project • May - 2025.</p>
         <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
           Explored global migration trends by origin and destination.
         </p>
@@ -100,7 +98,7 @@ const Home = () => {
         <li>Built Power BI dashboards for migration insights.</li>
         </ul>
 
-        <p className="mt-1 text-sm">📌 More details available in my portfolio.</p>
+        <p className="mt-1 text-sm">📌https://cledenir-portifolio.netlify.app/.</p>
       </div>
       </div>
 
@@ -233,5 +231,4 @@ const Home = () => {
     </div>
   );
 }
-
 export default Home;
