@@ -105,10 +105,11 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </div>
 
-          {/* Personality Section */}
+          {/* Soft Skills Section */}
           <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">SOFTSKILLS</h1>
             <ul className="space-y-2">
+              <li>Teamwork</li>
               <li>Communicative</li>
               <li>Adaptability</li>
               <li>Empathy</li>
@@ -161,15 +162,16 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </div>
 
-           {/* Language Section */}
-           <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
+      {/* Language Section */}
+          <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">LANGUAGE</h1>
-            <ul className="space-y-3">
+            <ul className="list-disc list-inside space-y-3">
               <li>English (Fluent)</li>
               <li>Portuguese (Native)</li>
               <li>Spanish (Intermediate)</li>
             </ul>
           </section>
+
 
           {/* Download Resume Link */}
           <div className="flex justify-center p-5 mt-5">
