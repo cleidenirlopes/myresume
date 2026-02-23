@@ -18,14 +18,14 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
         <div className="flex flex-col gap-5">
           {/* Profile Section */}
           <div className="flex flex-col items-center justify-center gap-5 relative">
-            <img 
-              src="/Profile.JPG" 
-              alt="Profile" 
+            <img
+              src="/Profile.JPG"
+              alt="Profile"
               className="w-48 rounded-full"
-              
+
             />
 
-            
+
             <button
               className="absolute right-0 -top-12 p-2 rounded-full bg-gray-700 text-white"
               onClick={toggleDarkMode}
@@ -106,42 +106,46 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           </div>
 
           {/* Soft Skills Section */}
-        <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
-          <h1 className="text-base font-semibold md:text-2xl text-left">SOFTSKILLS</h1>
-          <ul className="space-y-2">
-            <li>• Teamwork</li>
-            <li>• Communicative</li>
-            <li>• Adaptability</li>
-            <li>• Empathy</li>
-            <li>• Active / Listening</li>
-            <li>• Problem Solving</li>
-            <li>• Creativity</li>
-          </ul>
-        </section>
+          <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
+            <h1 className="text-base font-semibold md:text-2xl text-left">SOFTSKILLS</h1>
+            <ul className="space-y-2">
+              <li>• Teamwork</li>
+              <li>• Communicative</li>
+              <li>• Adaptability</li>
+              <li>• Empathy</li>
+              <li>• Active / Listening</li>
+              <li>• Problem Solving</li>
+              <li>• Creativity</li>
+            </ul>
+          </section>
 
-      {/* Skills Section */}
-        <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
-          <h1 className="text-xl font-semibold md:text-2xl text-left">TECH SKILLS</h1>
-          <ul className="list-disc list-inside text-xl text-gray-600 dark:text-gray-400 font-medium space-y-2">
-            
-              <span className="font-bold">Data Analysis:</span>{' '}
-              <span className="text-base font-normal"> <li> Python (Pandas, NumPy), Power Query</li></span> 
+          {/* Skills Section */}
+          <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
+            <h1 className="text-xl font-semibold md:text-2xl text-left">TECH SKILLS</h1>
+            <div className="grid grid-cols-2 gap-y-4 gap-x-2 text-base text-gray-600 dark:text-gray-400 font-normal">
 
-              <span className="font-bold">A/B Testing:</span>{' '}
-              <span className="text-base font-normal"> <li> Hypothesis-Driven Experiments</li></span>            
-                       
-            
-              <span className="font-bold">Dashaboard Visualization:</span>{' '}
-              <span className="text-base font-normal"> <li> Power BI, Tableau, Matplotlib,</li> </span>            
-          
-              <span className="font-bold">Databases & SQL:</span>{' '}
-              <span className="text-base font-normal"> <li> MySQL, SQL Server, </li> </span>            
-            
-              <span className="font-bold">Tools & Libraries:</span>{' '}
-              <span className="text-base font-normal"> <li> Jupyter Notebook, VS Code, Git/GitHub</li> </span>
-            
-          </ul>
-        </div>
+              <div className="flex flex-col">
+                <span className="font-bold text-gray-800 dark:text-gray-200">Data Analysis:</span>
+                <span>Python, SQL, Excel, Pandas</span>
+              </div>
+
+              <div className="flex flex-col">
+                <span className="font-bold text-gray-800 dark:text-gray-200">Dashboards & Reporting:</span>
+                <span>Power BI, Tableau</span>
+              </div>
+
+              <div className="flex flex-col">
+                <span className="font-bold text-gray-800 dark:text-gray-200">Databases & ETL:</span>
+                <span>SQL Server, MySQL, SSIS</span>
+              </div>
+
+              <div className="flex flex-col">
+                <span className="font-bold text-gray-800 dark:text-gray-200">Governance & Tools:</span>
+                <span>Confluence, SharePoint, Overflow</span>
+              </div>
+
+            </div>
+          </div>
 
           {/* Hobbies Section */}
           <div className="flex flex-col gap-5 border-b border-gray-700 p-5">
@@ -162,7 +166,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </ul>
           </div>
 
-      {/* Language Section */}
+          {/* Language Section */}
           <section className="flex flex-col gap-5 border-b border-gray-700 p-5">
             <h1 className="text-base font-semibold md:text-2xl text-left">LANGUAGE</h1>
             <ul className="list-disc list-inside space-y-3">
@@ -176,13 +180,13 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           {/* Download Resume Link */}
           <div className="flex justify-center p-5 mt-5">
             <a
-              href="/CV-Cledenir-Data.pdf"
-              download="CV-Cledenir-Data.pdf"
-              className="text-center text-black dark:text-white text-lg md:text-xl font-medium tracking-wide flex items-center gap-2 hover:underline hover:text-blue-500 transition"
+              href="/CV - Cledenir Data Analytic.pdf"
+              download="Cledenir_Souza_Data_Operations_Analyst.pdf"
+              className="text-center text-black dark:text-white text-lg md:text-xl font-medium tracking-wide flex items-center gap-2 hover:underline hover:text-blue-500 transition btn-download"
               onClick={(e) => e.stopPropagation()}
             >
               <span className="text-blue-400 text-2xl">⬇️</span>
-              Get the CV in PDF
+              Get CV in PDF
             </a>
           </div>
         </div>
