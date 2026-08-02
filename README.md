@@ -1,70 +1,26 @@
-🖥️ Online CV
-This repository contains the code for my Online CV, a professional and interactive webpage showcasing my skills, experience, education, and contact information. The project is built using HTML, CSS, and JavaScript and is fully responsive, ensuring compatibility across different devices and screen sizes.
+# Online CV — Cledenir Souza
 
-🌟 Features
-📱 Responsive Design: Works seamlessly on desktops, tablets, and mobile devices.
+Source for my online CV, deployed at [cledenir-cv.netlify.app](https://cledenir-cv.netlify.app).
 
-🧑‍💼 Professional Layout: Clear sections for education, skills, experience, and contact.
+Built with React, Vite and Tailwind CSS. Content is kept in sync with my PDF CV and
+LinkedIn profile.
 
-✨ Interactive Elements: Hover effects, animations, and smooth navigation.
+## Stack
 
-🌙 Dark Mode Support: Toggle between light and dark themes.
+- React 18
+- Vite
+- Tailwind CSS
+- react-icons
 
-🖋️ Clean Typography: Elegant fonts for easy readability.
+## Development
 
-📂 Sections
-🖼️ Header
+```bash
+npm install
+npm run dev      # local dev server
+npm run build    # production build to dist/
+npm run preview  # preview the production build locally
+```
 
-Includes name, role, and social links (e.g., LinkedIn, GitHub).
+## Deployment
 
-📝 About Me
-
-A brief introduction summarizing my career, goals, and expertise.
-
-🎓 Education
-
-Chronological timeline of my academic qualifications with dots and lines for alignment.
-
-⚙️ Skills
-
-Highlights my technical and soft skills.
-
-📈 Experience
-
-Detailed list of my professional roles and achievements.
-
-📧 Contact
-
-Email address and social links for networking opportunities.
-
-💻 Technologies Used
-🏗️ HTML: Structure of the CV.
-
-🎨 CSS: Styling and layout.
-
-🛠️ JavaScript: Interactive and dynamic features.
-
-🌀 Tailwind CSS: Utility-first CSS framework for styling.
-
-🚀 Installation
-Clone this repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/cleidenirlopes/online-cv.git  
-Navigate to the project folder:
-
-bash
-Copy
-Edit
-cd online-cv  
-Open index.html in your browser.
-
-🌍 Live Demo
-Check out the live version of my CV here.
-
-📜 License
-This project is licensed under the MIT License.
-
-Feel free to fork, modify, or share it as needed.
+Deployed automatically by Netlify on push to `main` (see `netlify.toml`).
