@@ -1,16 +1,15 @@
 import SectionHeading from "./SectionHeading";
 
 const certifications = [
-  { name: "Data Analytics Bootcamp", meta: "IronHack, Lisbon" },
-  { name: "Data Visualization & Storytelling", meta: "LinkedIn Learning, 2024" },
-  { name: "SQL for Data Science", meta: "LinkedIn Learning, 2024" },
-  { name: "Financial Modelling Foundations", meta: "LinkedIn Learning, 2023" },
-  { name: "GCP for DevOps", meta: "Skillsoft, 2023" },
+  { name: "Technical IT Certificate", meta: "Windows Server & Network Administration – People Computer, Brazil" },
+  { name: "Quality Management", meta: "GreatLearning Academy" },
+  { name: "Scrum Foundation: Scrum Basics", meta: "Skillsoft" },
+  { name: "Data Analytics Bootcamp", meta: "Ironhack, Lisbon (supporting skill)" },
 ];
 
 const languages = [
   { name: "Portuguese", level: "Native (BR/PT)" },
-  { name: "English", level: "Fluent, C2" },
+  { name: "English", level: "Fluent" },
 ];
 
 const cardClass =
@@ -20,7 +19,7 @@ function Credentials() {
   return (
     <div className="grid grid-cols-1 gap-6 lg:grid-cols-[3fr_2fr]">
       <section aria-labelledby="certifications-heading" className={`${cardClass} flex flex-col gap-4`}>
-        <SectionHeading id="certifications-heading">Certifications</SectionHeading>
+        <SectionHeading id="certifications-heading">Training &amp; Certifications</SectionHeading>
         <ul className="divide-y divide-slate-200 dark:divide-slate-700">
           {certifications.map((cert) => (
             <li key={cert.name} className="flex flex-col gap-0.5 py-2.5 first:pt-0 last:pb-0">

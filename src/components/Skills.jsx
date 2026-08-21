@@ -3,27 +3,35 @@ import SectionHeading from "./SectionHeading";
 const skillGroups = [
   {
     title: "Customer Support",
-    items: "Ticket handling, chat & email support, account queries, payment issues, escalations, CSAT, first-contact resolution",
+    items: "Multi-channel support (chat, email, ticketing), account & payment queries, escalations, CSAT, first-contact resolution",
   },
   {
-    title: "iGaming Support",
-    items: "Player accounts, verification (KYC), bonus queries, responsible gaming, payment troubleshooting, multi-channel support",
+    title: "iGaming Operations",
+    items: "Player account support, verification (KYC) requests, bonus queries, payment troubleshooting",
   },
   {
-    title: "Trust & Safety",
-    items: "Content review, policy application, risk monitoring, quality review, escalation workflows, compliance documentation",
+    title: "Safer Gambling, Player Protection & AML Awareness",
+    items: "Gambling-related harm indicators, financial vulnerability, unusual activity/AML risk indicators, risk escalation, account restrictions",
   },
   {
-    title: "Technical Support",
-    items: "Windows / Linux, VPN, help desk, remote troubleshooting, incident logging, user support, technical documentation",
+    title: "Case & Ticket Management",
+    items: "Zendesk, SLA adherence, case documentation, audit-trail maintenance",
   },
   {
-    title: "Back Office & Operations",
-    items: "Case management, SLA adherence, process documentation, data organisation, operational reporting, workflow execution",
+    title: "Trust & Safety Background",
+    items: "Content/policy review, risk monitoring, quality review, escalation workflows",
+  },
+  {
+    title: "Technical Troubleshooting",
+    items: "Windows/Linux, VPN, help desk, remote support, incident logging",
+  },
+  {
+    title: "Communication",
+    items: "Native Portuguese (BR/PT), fluent English, client-facing communication, cross-cultural support (UK/US/Europe)",
   },
   {
     title: "Tools",
-    items: "Zendesk, Excel, SharePoint, Microsoft Teams, Outlook, Confluence, WordPress, AI tools, SQL (supporting), Power BI (supporting)",
+    items: "Zendesk, SharePoint, Confluence, Microsoft Teams, Outlook, Excel",
   },
 ];
 

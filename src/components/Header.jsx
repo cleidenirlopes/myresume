@@ -61,10 +61,10 @@ function Header({ darkMode, toggleDarkMode }) {
             Cledenir Souza
           </h1>
           <p className="text-lg font-medium text-sky-700 dark:text-sky-400">
-            Customer Support &amp; Digital Operations Specialist
+            Customer Support Specialist | iGaming &amp; Customer Operations
           </p>
           <p className="mx-auto max-w-xl text-sm text-slate-600 dark:text-slate-400">
-            Remote Customer Support &middot; Technical Support &middot; iGaming &middot; Trust &amp; Safety &middot; Back Office Operations
+            Multi-Channel Support &middot; Customer Operations &middot; iGaming &middot; Technical Troubleshooting &middot; Zendesk
           </p>
         </div>
       </div>

@@ -2,30 +2,27 @@ import SectionHeading from "./SectionHeading";
 
 const roles = [
   {
-    title: "Independent Digital Operations Projects",
-    company: "Freelance / Self-Directed",
+    title: "Independent Digital & Support Projects",
+    company: "Freelance / Self-Employed",
     period: "May 2025 – Present",
     location: "Remote, Lisbon",
     bullets: [
-      "Managed WordPress-based digital projects, including content updates, SEO structure, publishing workflows and troubleshooting.",
-      "Used AI tools to support research, documentation, content planning and operational task execution.",
-      "Organised project tasks, content calendars and simple reporting using Excel and digital planning tools.",
-      "Tested and improved website structure, internal links, page updates and publishing processes.",
+      "Managing independent digital projects, including website content updates, troubleshooting and publishing workflows.",
+      "Organising project tasks and simple reporting using Excel and digital planning tools.",
     ],
-    tools: "WordPress, Excel, Microsoft Teams, Notion, AI tools (ChatGPT, Claude), Google Workspace",
+    tools: "WordPress, Excel, Microsoft Teams",
   },
   {
     title: "iGaming Customer Support Analyst",
-    company: "Entain Group",
+    company: "Entain",
     period: "Nov 2024 – May 2025",
-    location: "Lisbon",
+    location: "Lisbon, Portugal (Hybrid)",
     bullets: [
-      "Delivered multi-channel customer support (chat, email, ticketing) for a global iGaming platform, handling account queries, payment issues, product questions and technical troubleshooting.",
-      "Managed player account issues including login problems, verification (KYC) requests, bonus queries and responsible gaming concerns, following internal procedures and escalation paths.",
-      "Investigated and resolved payment-related issues, liaising with internal teams to provide accurate, timely resolutions and maintain high CSAT scores.",
-      "Maintained clear and accurate case records in Zendesk, ensuring SLA compliance and full audit trail for each player interaction.",
-      "Adapted communication style to diverse international audiences, delivering consistent and empathetic support across English and Portuguese channels.",
-      "Escalated recurring issues to product and technical teams with structured case notes, contributing to knowledge base updates and process improvements.",
+      "Delivered multi-channel customer support (chat, email, ticketing) for international iGaming customers via Zendesk, handling account, product and technical troubleshooting queries.",
+      "Investigated account and payment issues using Zendesk and Entain's internal account-management system, reviewing account status, activity history and existing restrictions to resolve login, verification (KYC), bonus and payment queries and apply or escalate appropriate account actions.",
+      "Recognised signs of gambling-related harm and financial vulnerability during customer interactions, applying protective account restrictions and escalating cases in line with Safer Gambling and Player Protection procedures.",
+      "Identified unusual or suspicious account activity and potential AML risk indicators during account reviews, applying permitted restrictions and escalating cases to specialist AML/Compliance teams per internal procedures.",
+      "Created reusable step-by-step support templates and customer guidance for recurring queries and product/betting procedures, improving consistency and making complex instructions easier to follow.",
     ],
     tools: "Zendesk, SharePoint, Microsoft Teams, Outlook, Excel",
   },
@@ -33,17 +30,25 @@ const roles = [
     title: "Customer Operations & Trust & Safety Support",
     company: "Accenture",
     period: "Feb 2019 – Oct 2023",
-    location: "Lisbon",
+    location: "Lisbon, Portugal (Hybrid)",
     bullets: [
       "Reviewed and moderated digital content against platform policies, applying consistent guidelines to flag, escalate or approve submissions across high-volume queues.",
-      "Applied trust & safety policies to evaluate content risk, identify violations and produce well-documented decisions under time pressure and quality targets.",
-      "Conducted quality review of processed cases, identifying errors, maintaining accuracy rates and supporting team KPIs and SLA adherence.",
-      "Managed case documentation across Confluence and internal systems, ensuring complete, consistent and audit-ready records for all reviewed items.",
-      "Supported risk monitoring activities by flagging anomalies, tracking recurring patterns and escalating high-risk cases to senior review queues.",
-      "Handled customer operations tasks including account data requests, cross-team information flows and internal documentation queries across business units.",
-      "Contributed to process improvements, onboarding materials and team knowledge base updates across a nearly five-year tenure.",
+      "Applied trust & safety policies to evaluate content risk, identify violations and produce well-documented, audit-ready decisions under time pressure and quality targets.",
+      "Conducted quality review of processed cases, maintaining accuracy rates and supporting team KPIs and SLA adherence.",
+      "Supported risk monitoring by flagging anomalies and escalating high-risk cases, and handled customer operations tasks such as account data requests across business units.",
     ],
-    tools: "Confluence, SharePoint, Excel, SQL (reporting), Overflow, Power BI",
+    tools: "Confluence, SharePoint, Excel",
+  },
+  {
+    title: "Business Partner – Client Support & Digital Operations",
+    company: "Aquarela Infinity",
+    period: "2014 – 2019",
+    location: "Self-employed",
+    bullets: [
+      "Co-founded and helped operate a small self-employed business providing digital products, websites, applications and game-related development.",
+      "Acted as the primary client-facing contact: gathered requirements, discussed client needs, presented available services and translated requirements for the technical/development side.",
+      "Supported clients using delivered applications and websites, handling questions and follow-up support after delivery.",
+    ],
   },
   {
     title: "Desktop Support Technician",
@@ -52,12 +57,10 @@ const roles = [
     location: "São Paulo, Brazil",
     bullets: [
       "Provided front-line technical support for end users, resolving hardware, software, network and OS issues (Windows and Linux) in a help desk environment.",
-      "Diagnosed and troubleshot connectivity problems, peripheral failures and application errors, delivering timely resolutions and minimising user downtime.",
-      "Managed VPN access provisioning and remote connectivity support for distributed users.",
-      "Maintained incident logs and authored user-facing documentation in English and Portuguese, including troubleshooting guides and FAQs.",
-      "Coordinated with vendors and internal teams to improve system reliability and service delivery standards.",
+      "Diagnosed and troubleshot connectivity problems, peripheral failures and application errors, minimising user downtime, including VPN access and remote connectivity support.",
+      "Maintained incident logs and authored user-facing troubleshooting documentation in English and Portuguese, coordinating with vendors to improve service delivery.",
     ],
-    tools: "Windows OS, Linux OS, Microsoft Office, Outlook, Excel, SharePoint, VPN Tools",
+    tools: "Windows OS, Linux OS, Microsoft Office, Outlook, Excel, VPN Tools",
   },
 ];
 
@@ -88,9 +91,11 @@ function Experience() {
                 </li>
               ))}
             </ul>
-            <p className="mt-2 text-xs text-slate-500 dark:text-slate-500">
-              <span className="font-medium">Tools:</span> {role.tools}
-            </p>
+            {role.tools && (
+              <p className="mt-2 text-xs text-slate-500 dark:text-slate-500">
+                <span className="font-medium">Tools:</span> {role.tools}
+              </p>
+            )}
           </li>
         ))}
       </ol>
